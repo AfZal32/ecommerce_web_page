@@ -18,7 +18,7 @@ body {
 }
 
 .navbar {
-    padding: 20px 5%;
+    padding: 20px 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,22 +45,24 @@ nav ul li {
 
 .navbar .menu li a {
     display: block;
-    margin-left: 20px;
+    padding: 5px;
+    margin-left: 2px;
     color: #424144;
     border-bottom: 5px solid black transparent;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
+    border-radius: 5px;
 
 }
 
-
-.navbar .menu li a i {
-    color: #f63e4e;
-}
 
 .navbar .menu li a:hover {
-    border-bottom: 4px solid #f63e4e;
+    background: #fd6561;
+    color: white;
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+
 }
 
 .content {
@@ -129,7 +131,8 @@ nav ul li {
 }
 
 .section-third {
-    padding: 10px 5%;
+    margin-left: 70px;
+    /* padding: 10px; */
     margin-top: 100px;
 }
 
@@ -259,7 +262,15 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        align-items: center;
 
+    }
+
+    .products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
 
